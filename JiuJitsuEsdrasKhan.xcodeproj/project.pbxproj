@@ -14,6 +14,13 @@
 		3C6500432C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500422C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests.swift */; };
 		3C65004D2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65004C2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.swift */; };
 		3C65004F2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65004E2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITestsLaunchTests.swift */; };
+		3C6500722C8CF909006D8C5E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500712C8CF909006D8C5E /* User.swift */; };
+		3C6500742C8CF980006D8C5E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500732C8CF980006D8C5E /* NetworkService.swift */; };
+		3C6500772C8CF9CC006D8C5E /* ENetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500762C8CF9CC006D8C5E /* ENetwork.swift */; };
+		3C65007F2C8CFABA006D8C5E /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65007E2C8CFABA006D8C5E /* UserViewModel.swift */; };
+		3C6500812C8CFC12006D8C5E /* UserLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500802C8CFC12006D8C5E /* UserLists.swift */; };
+		3C6500832C8CFDBB006D8C5E /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500822C8CFDBB006D8C5E /* Logo.swift */; };
+		3C6500862C8D045C006D8C5E /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500852C8D045C006D8C5E /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		3C6500482C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiuJitsuEsdrasKhanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C65004C2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuJitsuEsdrasKhanUITests.swift; sourceTree = "<group>"; };
 		3C65004E2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuJitsuEsdrasKhanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C6500712C8CF909006D8C5E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../../../User.swift; sourceTree = "<group>"; };
+		3C6500732C8CF980006D8C5E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = ../../../../../../NetworkService.swift; sourceTree = "<group>"; };
+		3C6500762C8CF9CC006D8C5E /* ENetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENetwork.swift; sourceTree = "<group>"; };
+		3C65007E2C8CFABA006D8C5E /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		3C6500802C8CFC12006D8C5E /* UserLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLists.swift; sourceTree = "<group>"; };
+		3C6500822C8CFDBB006D8C5E /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		3C6500852C8D045C006D8C5E /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +108,10 @@
 		3C6500302C8CF16B006D8C5E /* JiuJitsuEsdrasKhan */ = {
 			isa = PBXGroup;
 			children = (
-				3C6500312C8CF16B006D8C5E /* JiuJitsuEsdrasKhanApp.swift */,
-				3C6500332C8CF16B006D8C5E /* ContentView.swift */,
+				3C6500702C8CF82B006D8C5E /* App */,
+				3C6500692C8CF79C006D8C5E /* Shared */,
+				3C6500682C8CF795006D8C5E /* Features */,
+				3C6500652C8CF77D006D8C5E /* Core */,
 				3C6500352C8CF16F006D8C5E /* Assets.xcassets */,
 				3C6500372C8CF16F006D8C5E /* Preview Content */,
 			);
@@ -125,6 +141,147 @@
 				3C65004E2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITestsLaunchTests.swift */,
 			);
 			path = JiuJitsuEsdrasKhanUITests;
+			sourceTree = "<group>";
+		};
+		3C6500652C8CF77D006D8C5E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500672C8CF78B006D8C5E /* Services */,
+				3C6500662C8CF784006D8C5E /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3C6500662C8CF784006D8C5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500712C8CF909006D8C5E /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C6500672C8CF78B006D8C5E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500732C8CF980006D8C5E /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3C6500682C8CF795006D8C5E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500782C8CFA8A006D8C5E /* Users */,
+				3C65006C2C8CF7DE006D8C5E /* LessonManagement */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3C6500692C8CF79C006D8C5E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500752C8CF9AA006D8C5E /* Enums */,
+				3C65006B2C8CF7B1006D8C5E /* Resources */,
+				3C65006A2C8CF7A7006D8C5E /* Components */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3C65006A2C8CF7A7006D8C5E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500822C8CFDBB006D8C5E /* Logo.swift */,
+				3C6500852C8D045C006D8C5E /* Header.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3C65006B2C8CF7B1006D8C5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C65006C2C8CF7DE006D8C5E /* LessonManagement */ = {
+			isa = PBXGroup;
+			children = (
+				3C65006F2C8CF804006D8C5E /* ViewModels */,
+				3C65006E2C8CF7FF006D8C5E /* Models */,
+				3C65006D2C8CF7F6006D8C5E /* Views */,
+			);
+			path = LessonManagement;
+			sourceTree = "<group>";
+		};
+		3C65006D2C8CF7F6006D8C5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C65006E2C8CF7FF006D8C5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C65006F2C8CF804006D8C5E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3C6500702C8CF82B006D8C5E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500332C8CF16B006D8C5E /* ContentView.swift */,
+				3C6500312C8CF16B006D8C5E /* JiuJitsuEsdrasKhanApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3C6500752C8CF9AA006D8C5E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500762C8CF9CC006D8C5E /* ENetwork.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		3C6500782C8CFA8A006D8C5E /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				3C65007D2C8CFAA0006D8C5E /* Views */,
+				3C65007C2C8CFA9C006D8C5E /* Models */,
+				3C6500792C8CFA95006D8C5E /* ViewModels */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		3C6500792C8CFA95006D8C5E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3C65007E2C8CFABA006D8C5E /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3C65007C2C8CFA9C006D8C5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C65007D2C8CFAA0006D8C5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500802C8CFC12006D8C5E /* UserLists.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +415,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C6500342C8CF16B006D8C5E /* ContentView.swift in Sources */,
+				3C6500862C8D045C006D8C5E /* Header.swift in Sources */,
 				3C6500322C8CF16B006D8C5E /* JiuJitsuEsdrasKhanApp.swift in Sources */,
+				3C6500812C8CFC12006D8C5E /* UserLists.swift in Sources */,
+				3C6500742C8CF980006D8C5E /* NetworkService.swift in Sources */,
+				3C6500722C8CF909006D8C5E /* User.swift in Sources */,
+				3C65007F2C8CFABA006D8C5E /* UserViewModel.swift in Sources */,
+				3C6500832C8CFDBB006D8C5E /* Logo.swift in Sources */,
+				3C6500772C8CF9CC006D8C5E /* ENetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
