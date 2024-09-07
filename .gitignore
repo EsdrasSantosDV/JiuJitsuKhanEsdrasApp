@@ -1,0 +1,81 @@
+
+# Xcode
+#
+# Xcode projects
+.DS_Store
+UserInterfaceState.xcuserstate
+
+# Build generated
+DerivedData/
+build/
+
+# Various settings
+xcuserdata/
+
+# Swift Package Manager
+#
+# Add this line if you have SPM dependencies
+Packages/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+#
+# Uncomment if you have CocoaPods dependencies
+# Pods/
+# Podfile.lock
+
+# Carthage
+#
+# Uncomment if you use Carthage
+# Carthage/Build/
+# Carthage/Checkouts/
+
+# fastlane
+#
+# Uncomment if you use fastlane
+# fastlane/report.xml
+# fastlane/Preview.html
+# fastlane/screenshots/**/*.png
+# fastlane/test_output/
+
+# Code Signing
+#
+# Private keys and certificates
+*.pem
+*.cer
+*.mobileprovision
+*.xcconfig
+
+# App Icons and Asset Catalogs
+#
+# Uncomment if you do not want to track generated app icon files
+# *.xcassets/*.appiconset/*.png
+# *.xcassets/*.imageset/*.png
+
+# Optional configuration files
+#
+# Uncomment if you use Xcode configuration files
+# *.xcconfig
+
+# SwiftUI Previews
+#
+# Ignore generated preview files
+*.preview-thumbnails
+
+# Playgrounds
+#
+# Ignore contents within playground files
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftLint/SwiftFormat
+#
+# Uncomment if you have linting or formatting setup
+# .swiftlint.yml
+# .swiftformat
+
+# Other
+#
+# Ignore any other files you don't want to track
+

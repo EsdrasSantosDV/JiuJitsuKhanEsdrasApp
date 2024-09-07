@@ -1,10 +1,3 @@
-//
-//  UserLists.swift
-//  JiuJitsuEsdrasKhan
-//
-//  Created by Esdras Santos on 07/09/24.
-//
-
 import SwiftUI
 
 struct UserLists: View {
@@ -22,22 +15,41 @@ struct UserLists: View {
                     VStack(alignment: .leading, spacing: 8) {
                         Text(user.name)
                             .font(.headline)
+                            .foregroundColor(.white)  // Texto branco
                         Text("Username: \(user.username)")
+                            .foregroundColor(.white)  // Texto branco
                         Text("Email: \(user.email)")
+                            .foregroundColor(.white)  // Texto branco
                         Text("Phone: \(user.phone)")
+                            .foregroundColor(.white)  // Texto branco
                         Text("Website: \(user.website)")
+                            .foregroundColor(.white)  // Texto branco
+                        
                         Text("Address:")
+                            .font(.subheadline)
+                            .foregroundColor(.white)
                         Text("\(user.address.suite), \(user.address.street)")
+                            .foregroundColor(.white)
                         Text("\(user.address.city), \(user.address.zipcode)")
+                            .foregroundColor(.white)
                         
                         // Exibir informações da empresa
                         Text("Company:")
+                            .font(.subheadline)
+                            .foregroundColor(.white)
                         Text(user.company.name)
+                            .foregroundColor(.white)
                         Text(user.company.catchPhrase)
                             .italic()
+                            .foregroundColor(.white)
                     }
                     .padding(.vertical)
+                    .padding(.horizontal)
+                    .background(Color.black)  // Fundo preto
+                    .cornerRadius(10)
+                    .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 2)
                 }
+                .listStyle(PlainListStyle())  // Remove o fundo padrão da lista
             }
         }
         .onAppear {
