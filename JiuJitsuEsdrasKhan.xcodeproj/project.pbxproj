@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6500322C8CF16B006D8C5E /* JiuJitsuEsdrasKhanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500312C8CF16B006D8C5E /* JiuJitsuEsdrasKhanApp.swift */; };
+		3C6500342C8CF16B006D8C5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500332C8CF16B006D8C5E /* ContentView.swift */; };
+		3C6500362C8CF16F006D8C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6500352C8CF16F006D8C5E /* Assets.xcassets */; };
+		3C6500392C8CF16F006D8C5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6500382C8CF16F006D8C5E /* Preview Assets.xcassets */; };
+		3C6500432C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500422C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests.swift */; };
+		3C65004D2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65004C2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.swift */; };
+		3C65004F2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65004E2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C65003F2C8CF16F006D8C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6500262C8CF16B006D8C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C65002D2C8CF16B006D8C5E;
+			remoteInfo = JiuJitsuEsdrasKhan;
+		};
+		3C6500492C8CF16F006D8C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6500262C8CF16B006D8C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C65002D2C8CF16B006D8C5E;
+			remoteInfo = JiuJitsuEsdrasKhan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C65002E2C8CF16B006D8C5E /* JiuJitsuEsdrasKhan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiuJitsuEsdrasKhan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6500312C8CF16B006D8C5E /* JiuJitsuEsdrasKhanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuJitsuEsdrasKhanApp.swift; sourceTree = "<group>"; };
+		3C6500332C8CF16B006D8C5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C6500352C8CF16F006D8C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C6500382C8CF16F006D8C5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C65003E2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiuJitsuEsdrasKhanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6500422C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuJitsuEsdrasKhanTests.swift; sourceTree = "<group>"; };
+		3C6500482C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiuJitsuEsdrasKhanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C65004C2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuJitsuEsdrasKhanUITests.swift; sourceTree = "<group>"; };
+		3C65004E2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiuJitsuEsdrasKhanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C65002B2C8CF16B006D8C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C65003B2C8CF16F006D8C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6500452C8CF16F006D8C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6500252C8CF16B006D8C5E = {
+			isa = PBXGroup;
+			children = (
+				3C6500302C8CF16B006D8C5E /* JiuJitsuEsdrasKhan */,
+				3C6500412C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests */,
+				3C65004B2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests */,
+				3C65002F2C8CF16B006D8C5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C65002F2C8CF16B006D8C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C65002E2C8CF16B006D8C5E /* JiuJitsuEsdrasKhan.app */,
+				3C65003E2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests.xctest */,
+				3C6500482C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C6500302C8CF16B006D8C5E /* JiuJitsuEsdrasKhan */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500312C8CF16B006D8C5E /* JiuJitsuEsdrasKhanApp.swift */,
+				3C6500332C8CF16B006D8C5E /* ContentView.swift */,
+				3C6500352C8CF16F006D8C5E /* Assets.xcassets */,
+				3C6500372C8CF16F006D8C5E /* Preview Content */,
+			);
+			path = JiuJitsuEsdrasKhan;
+			sourceTree = "<group>";
+		};
+		3C6500372C8CF16F006D8C5E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500382C8CF16F006D8C5E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C6500412C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6500422C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests.swift */,
+			);
+			path = JiuJitsuEsdrasKhanTests;
+			sourceTree = "<group>";
+		};
+		3C65004B2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C65004C2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.swift */,
+				3C65004E2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITestsLaunchTests.swift */,
+			);
+			path = JiuJitsuEsdrasKhanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C65002D2C8CF16B006D8C5E /* JiuJitsuEsdrasKhan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6500522C8CF16F006D8C5E /* Build configuration list for PBXNativeTarget "JiuJitsuEsdrasKhan" */;
+			buildPhases = (
+				3C65002A2C8CF16B006D8C5E /* Sources */,
+				3C65002B2C8CF16B006D8C5E /* Frameworks */,
+				3C65002C2C8CF16B006D8C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiuJitsuEsdrasKhan;
+			productName = JiuJitsuEsdrasKhan;
+			productReference = 3C65002E2C8CF16B006D8C5E /* JiuJitsuEsdrasKhan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C65003D2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6500552C8CF16F006D8C5E /* Build configuration list for PBXNativeTarget "JiuJitsuEsdrasKhanTests" */;
+			buildPhases = (
+				3C65003A2C8CF16F006D8C5E /* Sources */,
+				3C65003B2C8CF16F006D8C5E /* Frameworks */,
+				3C65003C2C8CF16F006D8C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6500402C8CF16F006D8C5E /* PBXTargetDependency */,
+			);
+			name = JiuJitsuEsdrasKhanTests;
+			productName = JiuJitsuEsdrasKhanTests;
+			productReference = 3C65003E2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C6500472C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6500582C8CF16F006D8C5E /* Build configuration list for PBXNativeTarget "JiuJitsuEsdrasKhanUITests" */;
+			buildPhases = (
+				3C6500442C8CF16F006D8C5E /* Sources */,
+				3C6500452C8CF16F006D8C5E /* Frameworks */,
+				3C6500462C8CF16F006D8C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C65004A2C8CF16F006D8C5E /* PBXTargetDependency */,
+			);
+			name = JiuJitsuEsdrasKhanUITests;
+			productName = JiuJitsuEsdrasKhanUITests;
+			productReference = 3C6500482C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C6500262C8CF16B006D8C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3C65002D2C8CF16B006D8C5E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3C65003D2C8CF16F006D8C5E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3C65002D2C8CF16B006D8C5E;
+					};
+					3C6500472C8CF16F006D8C5E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3C65002D2C8CF16B006D8C5E;
+					};
+				};
+			};
+			buildConfigurationList = 3C6500292C8CF16B006D8C5E /* Build configuration list for PBXProject "JiuJitsuEsdrasKhan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C6500252C8CF16B006D8C5E;
+			productRefGroup = 3C65002F2C8CF16B006D8C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C65002D2C8CF16B006D8C5E /* JiuJitsuEsdrasKhan */,
+				3C65003D2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests */,
+				3C6500472C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C65002C2C8CF16B006D8C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6500392C8CF16F006D8C5E /* Preview Assets.xcassets in Resources */,
+				3C6500362C8CF16F006D8C5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C65003C2C8CF16F006D8C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6500462C8CF16F006D8C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C65002A2C8CF16B006D8C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6500342C8CF16B006D8C5E /* ContentView.swift in Sources */,
+				3C6500322C8CF16B006D8C5E /* JiuJitsuEsdrasKhanApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C65003A2C8CF16F006D8C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6500432C8CF16F006D8C5E /* JiuJitsuEsdrasKhanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6500442C8CF16F006D8C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C65004D2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITests.swift in Sources */,
+				3C65004F2C8CF16F006D8C5E /* JiuJitsuEsdrasKhanUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C6500402C8CF16F006D8C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C65002D2C8CF16B006D8C5E /* JiuJitsuEsdrasKhan */;
+			targetProxy = 3C65003F2C8CF16F006D8C5E /* PBXContainerItemProxy */;
+		};
+		3C65004A2C8CF16F006D8C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C65002D2C8CF16B006D8C5E /* JiuJitsuEsdrasKhan */;
+			targetProxy = 3C6500492C8CF16F006D8C5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C6500502C8CF16F006D8C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C6500512C8CF16F006D8C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C6500532C8CF16F006D8C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JiuJitsuEsdrasKhan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esdras-khan.JiuJitsuEsdrasKhan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C6500542C8CF16F006D8C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JiuJitsuEsdrasKhan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esdras-khan.JiuJitsuEsdrasKhan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C6500562C8CF16F006D8C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esdras-khan.JiuJitsuEsdrasKhanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiuJitsuEsdrasKhan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JiuJitsuEsdrasKhan";
+			};
+			name = Debug;
+		};
+		3C6500572C8CF16F006D8C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esdras-khan.JiuJitsuEsdrasKhanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiuJitsuEsdrasKhan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JiuJitsuEsdrasKhan";
+			};
+			name = Release;
+		};
+		3C6500592C8CF16F006D8C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esdras-khan.JiuJitsuEsdrasKhanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiuJitsuEsdrasKhan;
+			};
+			name = Debug;
+		};
+		3C65005A2C8CF16F006D8C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "esdras-khan.JiuJitsuEsdrasKhanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiuJitsuEsdrasKhan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C6500292C8CF16B006D8C5E /* Build configuration list for PBXProject "JiuJitsuEsdrasKhan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6500502C8CF16F006D8C5E /* Debug */,
+				3C6500512C8CF16F006D8C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6500522C8CF16F006D8C5E /* Build configuration list for PBXNativeTarget "JiuJitsuEsdrasKhan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6500532C8CF16F006D8C5E /* Debug */,
+				3C6500542C8CF16F006D8C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6500552C8CF16F006D8C5E /* Build configuration list for PBXNativeTarget "JiuJitsuEsdrasKhanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6500562C8CF16F006D8C5E /* Debug */,
+				3C6500572C8CF16F006D8C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6500582C8CF16F006D8C5E /* Build configuration list for PBXNativeTarget "JiuJitsuEsdrasKhanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6500592C8CF16F006D8C5E /* Debug */,
+				3C65005A2C8CF16F006D8C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C6500262C8CF16B006D8C5E /* Project object */;
+}
