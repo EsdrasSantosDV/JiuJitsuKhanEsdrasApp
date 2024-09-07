@@ -16,6 +16,8 @@ struct ContentView: View {
     
     @ViewBuilder
      func contentForSelectedOption() -> some View {
+         //isso e muita gambiarra na minha visao
+         //procurar pra resolver isso depois
          switch selectedOption {
          case .home:
              Home()
