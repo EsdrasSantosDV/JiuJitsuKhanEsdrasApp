@@ -3,28 +3,31 @@ import SwiftUI
 struct Header: View {
     var title: String
     var paddingValue: CGFloat = 16
-    var backgroundColor: Color = .white
-    var foregroundColor: Color = .black
+    var lightModeBackgroundColor: Color = .white
+    var darkModeBackgroundColor: Color = .black
+    var lightModeForegroundColor: Color = .black
+    var darkModeForegroundColor: Color = .white
     var shadowColor: Color = Color.black.opacity(0.1)
+    
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
         ZStack {
-            backgroundColor
-                .edgesIgnoringSafeArea(.top)
+            (colorScheme == .dark ? darkModeBackgroundColor : lightModeBackgroundColor)
+            
             HStack {
                 Spacer()
                 Text(title)
                     .font(.headline)
-                    .foregroundColor(foregroundColor)
+                    .foregroundColor(colorScheme == .dark ? darkModeForegroundColor : lightModeForegroundColor)
                     .accessibilityAddTraits(.isHeader)
                     .minimumScaleFactor(0.5)
                     .lineLimit(1)
-                
                 Spacer()
             }
             .padding(paddingValue)
-            .frame(maxWidth: .infinity, maxHeight: 60)
         }
+        .frame(height: 60)
         .shadow(color: shadowColor, radius: 5, x: 0, y: 2)
     }
 }

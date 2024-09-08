@@ -24,6 +24,7 @@
 		3C65008A2C8D1198006D8C5E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6500892C8D1197006D8C5E /* Home.swift */; };
 		3C65008C2C8D11E7006D8C5E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65008B2C8D11E7006D8C5E /* Menu.swift */; };
 		3C65008E2C8D122A006D8C5E /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C65008D2C8D122A006D8C5E /* MenuOption.swift */; };
+		3CB6586C2C8D61D70082695B /* ETab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6586B2C8D61D70082695B /* ETab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		3C6500892C8D1197006D8C5E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		3C65008B2C8D11E7006D8C5E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		3C65008D2C8D122A006D8C5E /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		3CB6586B2C8D61D70082695B /* ETab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		3C6500692C8CF79C006D8C5E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				3CB6586A2C8D61BD0082695B /* Models */,
 				3C6500752C8CF9AA006D8C5E /* Enums */,
 				3C65006B2C8CF7B1006D8C5E /* Resources */,
 				3C65006A2C8CF7A7006D8C5E /* Components */,
@@ -256,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				3C6500762C8CF9CC006D8C5E /* ENetwork.swift */,
+				3CB6586B2C8D61D70082695B /* ETab.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -307,6 +311,13 @@
 				3C6500892C8D1197006D8C5E /* Home.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3CB6586A2C8D61BD0082695B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,6 +452,7 @@
 			files = (
 				3C6500342C8CF16B006D8C5E /* ContentView.swift in Sources */,
 				3C65008E2C8D122A006D8C5E /* MenuOption.swift in Sources */,
+				3CB6586C2C8D61D70082695B /* ETab.swift in Sources */,
 				3C6500862C8D045C006D8C5E /* Header.swift in Sources */,
 				3C65008A2C8D1198006D8C5E /* Home.swift in Sources */,
 				3C6500322C8CF16B006D8C5E /* JiuJitsuEsdrasKhanApp.swift in Sources */,

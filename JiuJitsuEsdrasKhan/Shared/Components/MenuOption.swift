@@ -7,28 +7,22 @@
 
 import SwiftUI
 
-struct MenuOption: View {
-    var iconName: String
-    var title: String
-    @Binding var selectedOption: ContentOption
-    var targetOption: ContentOption
-
-       var body: some View {
-           Button(action: {
-               selectedOption = targetOption  // Atualiza o conteúdo central
-           }) {
-               VStack {
-                   Image(systemName: iconName)
-                       .font(.system(size: 24))
-                       .foregroundColor(selectedOption == targetOption ? .blue : .white)
-                       .frame(width: 60, height: 60)
-                       .background(Circle().fill(selectedOption == targetOption ? Color.white : Color.blue))
-                   
-                   Text(title)
-                       .font(.caption)
-                       .foregroundColor(.white)
-               }
-           }
-       }
+struct TabBarItemView: View {
+    let tab: ETab
+    let isSelected: Bool
+    
+    var body: some View {
+        VStack {
+            Image(systemName: tab.iconName)
+                .font(.system(size: 24, weight: .bold))
+                .foregroundColor(isSelected ? .blue : .gray)
+            Text(tab.rawValue)
+                .font(.system(size: 12))
+                .foregroundColor(isSelected ? .blue : .gray)
+        }
+    }
 }
 
+#Preview {
+    TabBarItemView(tab: ETab.calendar, isSelected: true)
+}

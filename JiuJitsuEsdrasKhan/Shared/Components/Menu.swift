@@ -1,30 +1,41 @@
-//
-//  Menu.swift
-//  JiuJitsuEsdrasKhan
-//
-//  Created by Esdras Santos on 07/09/24.
-//
-
 import SwiftUI
 
-struct Menu: View {
-    @Binding var selectedOption: ContentOption
 
+
+struct Menu: View {
+    @State private var selectedTab: ETab = .calendar
+    
     var body: some View {
-        HStack(spacing: 40) {
-            MenuOption(iconName: "house.fill", title: "Home", selectedOption: $selectedOption, targetOption: .home)
-            
-            MenuOption(iconName: "gearshape.fill", title: "Usuarios", selectedOption: $selectedOption, targetOption: .users)
-      
+        TabView(selection: $selectedTab) {
+            ForEach(ETab.allCases, id: \.self) { tab in
+                createView(for: tab)
+                    .tabItem {
+                        TabBarItemView(tab: tab, isSelected: selectedTab == tab)
+                    }
+                    .tag(tab)
+            }
         }
-        .padding()
-        .background(
-            RoundedRectangle(cornerRadius: 30)
-                .fill(Color.black)
-                .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: -5)
-        )
-        .padding(.horizontal, 20)
-        .edgesIgnoringSafeArea(.bottom)
+        .accentColor(.blue)
     }
+    
+   
+    @ViewBuilder
+    func createView(for tab: ETab) -> some View {
+        switch tab {
+        case .calendar:
+            UserLists()
+        case .gym:
+            UserLists()
+        case .notifications:
+            UserLists()
+        case .profile:
+            UserLists()
+        }
+    }
+}
+
+
+#Preview {
+    Menu()
 }
 
